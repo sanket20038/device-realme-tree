@@ -13,5 +13,8 @@
     <!-- Location on the screen of the center of the fingerprint sensor. -->
     <dimen name="physical_fingerprint_sensor_center_screen_location_x">1080px</dimen>
     <dimen name="physical_fingerprint_sensor_center_screen_location_y">860px</dimen>
+    
+    <!-- Preferred max refresh rate at AOD & Ambient Display, if supported by the display. -->
+    <integer name="config_aodMaxRefreshRate">60</integer>
 
 </resources>
