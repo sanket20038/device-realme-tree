@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/ice/device.mk)
 
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
 # Environment Flags
 TARGET_FACE_UNLOCK_SUPPORTED := true
@@ -22,7 +22,7 @@ TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 #Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := lineage_ice
+PRODUCT_NAME := voltage_ice
 PRODUCT_DEVICE := ice
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
